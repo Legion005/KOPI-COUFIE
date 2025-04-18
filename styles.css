@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #a7a7a7;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #233323;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  /* Main Content */
+  main {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  button {
+    display: block; /* Set tombol menjadi blok agar setiap tombol berada di baris baru */
+    margin: 25px auto; /* Tambahkan jarak antar tombol dan posisikan di tengah */
+    padding: 15px 30px; /* Ukuran padding yang sama untuk semua tombol */
+    font-size: 16px; /* Ukuran teks tombol */
+    background-color: #4CAF50; /* Warna latar tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Hapus border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Ubah kursor menjadi pointer saat hover */
+    width: 150px; /* Tetapkan lebar tombol agar konsisten */
+    text-align: center; /* Pastikan teks tombol berada di tengah */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna tombol saat hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna tombol saat hover */
+}
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  img {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  .logo {
+    position: absolute;
+    top: -125px; /* Jarak dari atas */
+    left: 5px; /* Jarak dari kiri */
+    width: 168px; /* Perbesar ukuran logo */
+    border: none; /* Hapus border jika tidak diperlukan */
+    border-radius: 0; /* Hapus border-radius jika tidak diperlukan */
+    margin: 0; /* Hapus margin */
+}
+.menu-image {
+    display: block;
+    margin: 75px auto; /* Gambar berada di tengah dengan margin */
+    max-width: 90%; /* Pastikan gambar tidak lebih besar dari 90% lebar layar */
+    max-height: calc(200vh - 300px); /* Batasi tinggi gambar agar tidak melewati viewport */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    border: 2px solid #333; /* Border gambar */
+    border-radius: 10px; /* Sudut melengkung */
+    opacity: 0; /* Awalnya gambar tidak terlihat */
+    transform: scale(0.5); /* Awalnya gambar lebih kecil */
+    transition: opacity 1s ease, transform 1s ease; /* Animasi transisi */
+}
+
+.menu-image.animated {
+    opacity: 1; /* Gambar menjadi terlihat */
+    transform: scale(1); /* Gambar kembali ke ukuran normal */
+}
+.hidden {
+    display: none; /* Sembunyikan elemen */
+}
+.hidden {
+    display: none; /* Sembunyikan elemen */
+}
